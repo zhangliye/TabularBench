@@ -6,14 +6,20 @@ Benchmark the tabular-data packages in Julia, Python and R.
       * Help the package developers to evaluate the performance of the packages.
       
 2. In memeory processing
-      *Julia: DataFrames.jl
-      *Python: Pandas
-      *R: data.frame
+
+|              | DataFrames.jl | Pandas | data.frame | 
+| :---------   | :------:      | :----: | :--------: | 
+| Julia        |       X       |        |            | 
+| Python       |               | X      |            | 
+| R            |               |        |     X      | 
 
 3. Distributing processing:
-      * Julia: JuliaDB.jl
-      * Python: Dask
-      * R: 
+
+|              | JuliaDB.jl    | Dask   |            | 
+| :---------   | :------:      | :----: | :--------: | 
+| Julia        |       X       |        |            | 
+| Python       |               |    X   |            | 
+| R            |               |        |            | 
 
 4. Benchmarks 
       * read and write

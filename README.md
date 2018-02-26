@@ -1,11 +1,12 @@
 # TabularBench
 Benchmark the tabular-data packages in Julia, Python and R.
 
-1. Aims
-      * Help the users to select proper package for data processing;
-      * Help the package developers to evaluate the performance of the packages.
+1. **Aims 
+
+* Help the users to select proper package for data processing;
+* Help the package developers to evaluate the performance of the packages.
       
-2. In memeory processing
+2. **In memeory processing
 
 |              | DataFrames.jl | Pandas | data.frame | 
 | :---------   | :------:      | :----: | :--------: | 
@@ -13,7 +14,7 @@ Benchmark the tabular-data packages in Julia, Python and R.
 | Python       |               | X      |            | 
 | R            |               |        |     X      | 
 
-3. Distributing processing:
+3. **Distributing processing:
 
 |              | JuliaDB.jl    | Dask   |            | 
 | :---------   | :------:      | :----: | :--------: | 
@@ -21,11 +22,12 @@ Benchmark the tabular-data packages in Julia, Python and R.
 | Python       |               |    X   |            | 
 | R            |               |        |            | 
 
-4. Benchmarks 
-      * read and write
-      * query
-      * modification 
-      * statistics
+4. **Benchmarks 
+
+* Read and write
+* Query
+* Modification 
+* Statistics
 
 
 
